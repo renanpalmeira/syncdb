@@ -59,6 +59,6 @@ class DaemonApp():
         Algumas rotinas (start, stop, restart) estão a disposição.
 """
 if __name__=='__main__':
-    daemon_app = DaemonApp(20)
+    daemon_app = DaemonApp(10)
     runnerd = runner.DaemonRunner(daemon_app)
     result = runnerd.do_action()
